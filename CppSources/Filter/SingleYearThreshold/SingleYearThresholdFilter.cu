@@ -1,7 +1,5 @@
 #pragma once
 #include "SingleYearThresholdKernel.cu"
-#include "../DoubleYearThreshold/DoubleYearThresholdKernel.cu"
-#include "../../Generator/HomoPoly/CUDA_v2/HomoPolyMethod.cu"
 
 
 class SingleYearThresholdFilter: public Generator {

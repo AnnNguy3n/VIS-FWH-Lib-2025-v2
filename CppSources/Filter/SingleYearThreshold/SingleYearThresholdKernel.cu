@@ -1,8 +1,6 @@
 #pragma once
-
-
-const int __NUM_THRESHOLD_PER_CYCLE__ = 10;
-#define _NUM_THRESHOLD_PER_CYCLE_
+#include "../DoubleYearThreshold/DoubleYearThresholdKernel.cu"
+#include "../../Generator/HomoPoly/CUDA/HomoPolyMethod.cu"
 
 
 __device__ __forceinline__ void _single_year_threshold_investing(

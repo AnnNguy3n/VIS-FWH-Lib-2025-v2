@@ -1,6 +1,5 @@
 #pragma once
 #include "TripleYearThresholdKernel.cu"
-#include "../../Generator/HomoPoly/CUDA_v2/HomoPolyMethod.cu"
 
 
 class TripleYearThresholdFilter: public Generator {
